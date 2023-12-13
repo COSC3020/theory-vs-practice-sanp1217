@@ -29,6 +29,6 @@ Add your answers to this markdown file.
     Runtime(10,000) = 6.6 secs
 
 3.
-    1. The first run happened to be the best case runtime and this second run ran with the worst case of a binary tree, when the values are on one side. 
+    1. The two tests searched through different types of elements. The first test could have searched for integers while the second searched through long strings that take longer to compare. 
     2. A different machine was used to run the algorithm than what was used with 1,000 elements.
-    3. Memory leaks happened during the second run. Memory leaks can lead to the system swapping elements around in the memory, leading to slowdown.
+    3. Memory leaks happened during the second run due to the increased amount of elements. There are no specifics regarding how much memory the machine it was ran on had, and so it is possible that with this increase in      elments, memory leaks became more common. Memory leaks can lead to the system swapping elements around in the memory, leading to slowdown.
